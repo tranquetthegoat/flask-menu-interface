@@ -58,6 +58,9 @@ This template provides a simple menu interface using Python webview. It utilizes
 - **Enhance Functionality:** Edit `main.js` to add or modify JavaScript functionality.
 - **Extend Flask App:** Expand `app.py` to serve additional dynamic content or integrate with backend services.
 
+## Screenshots
+![Preloader]([http://url/to/img.png](https://i.postimg.cc/Kj3ts0cd/image.png))
+
 ## Credits
 
 - Template based on Bootstrap, Python webview, Flask, and keyboard libraries.
