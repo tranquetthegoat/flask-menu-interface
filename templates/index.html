@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner-border text-light" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <nav class="sidebar" id="sidebar" role="navigation">
+        <a href="#tab1" class="nav-link" data-toggle="tab">Tab 1</a>
+        <div class="nested" id="tab1Nested">
+            <a href="#subtab1" class="nav-link" data-toggle="tab">Sub Tab 1</a>
+            <a href="#subtab2" class="nav-link" data-toggle="tab">Sub Tab 2</a>
+        </div>
+        <a href="#tab2" class="nav-link" data-toggle="tab">Tab 2</a>
+        <a href="#tab3" class="nav-link" data-toggle="tab">Tab 3</a>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <button class="sidebar-toggle" id="sidebarToggleBtn">☰</button>
+            <h3 id="main-heading">Application</h3>
+        </header>
+        
+        <main class="row">
+            <div class="col">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="tab1" role="tabpanel">
+                        <h3>Tab 1 Content</h3>
+                        <p>This is the content of Tab 1.</p>
+                    </div>
+                    <div class="tab-pane fade" id="subtab1" role="tabpanel">
+                        <h3>Sub Tab 1 Content</h3>
+                        <p>This is the content of Sub Tab 1.</p>
+                    </div>
+                    <div class="tab-pane fade" id="subtab2" role="tabpanel">
+                        <h3>Sub Tab 2 Content</h3>
+                        <p>This is the content of Sub Tab 2.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel">
+                        <h3>Tab 2 Content</h3>
+                        <p>This is the content of Tab 2.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab3" role="tabpanel">
+                        <h3>Tab 3 Content</h3>
+                        <p>This is the content of Tab 3.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
