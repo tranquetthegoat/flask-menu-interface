@@ -60,6 +60,8 @@ This template provides a simple menu interface using Python webview. It utilizes
 ![Preloader](https://github.com/tranquetthegoat/flask-menu-interface/assets/167721080/0c2a44e2-e2fd-4e62-a826-11e194f4b6f5)
 ![Sidebar](https://github.com/tranquetthegoat/flask-menu-interface/assets/167721080/7b746048-5140-45d8-8907-d4c16fe8ea08)
 ![image](https://github.com/tranquetthegoat/flask-menu-interface/assets/167721080/d3236159-4ce1-47a1-8fad-261b71cbd44b)
+![image](https://github.com/tranquetthegoat/flask-menu-interface/assets/167721080/e29d6f55-5b67-4f27-a95d-47c656cd7f96)
+
 
 ## Credits
 
